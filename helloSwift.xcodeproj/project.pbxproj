@@ -13,6 +13,7 @@
 		013F02821F90B37600FC8F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013F02811F90B37600FC8F5A /* Assets.xcassets */; };
 		013F02851F90B37600FC8F5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013F02831F90B37600FC8F5A /* LaunchScreen.storyboard */; };
 		013F02901F90B37700FC8F5A /* helloSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013F028F1F90B37700FC8F5A /* helloSwiftTests.swift */; };
+		016529801F94720A001DF7CB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0165297F1F94720A001DF7CB /* SignInViewController.swift */; };
 		01C789601F92C7C000C46A60 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C7895F1F92C7C000C46A60 /* user.swift */; };
 		01C789621F92E2F200C46A60 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C789611F92E2F200C46A60 /* constants.swift */; };
 		9E36399BF4359E01CC3C2B61 /* Pods_helloSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F2ECB0C484C627913EC1C3 /* Pods_helloSwiftTests.framework */; };
@@ -40,6 +41,7 @@
 		013F028B1F90B37600FC8F5A /* helloSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		013F028F1F90B37700FC8F5A /* helloSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloSwiftTests.swift; sourceTree = "<group>"; };
 		013F02911F90B37700FC8F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0165297F1F94720A001DF7CB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		01BBCF2E1F90BCED00927BA7 /* bridging_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = bridging_header.h; path = /Users/nick/Desktop/helloSwift/helloSwift/bridging_header.h; sourceTree = "<absolute>"; };
 		01C7895F1F92C7C000C46A60 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = user.swift; path = /Users/nick/Desktop/helloSwift/helloSwift/user.swift; sourceTree = "<absolute>"; };
 		01C789611F92E2F200C46A60 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				013F027C1F90B37600FC8F5A /* ViewController.swift */,
 				01C7895F1F92C7C000C46A60 /* user.swift */,
 				013F027E1F90B37600FC8F5A /* Main.storyboard */,
+				0165297F1F94720A001DF7CB /* SignInViewController.swift */,
 				013F02811F90B37600FC8F5A /* Assets.xcassets */,
 				013F02831F90B37600FC8F5A /* LaunchScreen.storyboard */,
 				013F02861F90B37600FC8F5A /* Info.plist */,
@@ -393,6 +396,7 @@
 				013F027D1F90B37600FC8F5A /* ViewController.swift in Sources */,
 				013F027B1F90B37600FC8F5A /* AppDelegate.swift in Sources */,
 				01C789601F92C7C000C46A60 /* user.swift in Sources */,
+				016529801F94720A001DF7CB /* SignInViewController.swift in Sources */,
 				01C789621F92E2F200C46A60 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -56,6 +56,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     
+    @IBAction func toSignUpButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "toSignIn", sender: self)
+    }
     
     
     
